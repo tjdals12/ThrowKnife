@@ -1,0 +1,1388 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b59171ebc29d44884ba3a065e2d84db4, type: 3}
+  m_Name: Database
+  m_EditorClassIdentifier: 
+  _loopStage: 90
+  infos:
+  - name: STAGE 1
+    index: 0
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: 51c4b3c22d847465cb31e35d32716d5e, type: 3}
+    _rotateSpeed: 3
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 0
+    _minStuckKnifeCount: 0
+    _maxStuckKnifeCount: 1
+    _throwableKnifeCount: 6
+  - name: STAGE 2
+    index: 1
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: 51c4b3c22d847465cb31e35d32716d5e, type: 3}
+    _rotateSpeed: 3
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 0
+    _minStuckKnifeCount: 0
+    _maxStuckKnifeCount: 1
+    _throwableKnifeCount: 6
+  - name: STAGE 3
+    index: 2
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: 51c4b3c22d847465cb31e35d32716d5e, type: 3}
+    _rotateSpeed: 3.5
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 0
+    _minStuckKnifeCount: 0
+    _maxStuckKnifeCount: 1
+    _throwableKnifeCount: 6
+  - name: STAGE 4
+    index: 3
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: 51c4b3c22d847465cb31e35d32716d5e, type: 3}
+    _rotateSpeed: 3.5
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 0
+    _minStuckKnifeCount: 0
+    _maxStuckKnifeCount: 1
+    _throwableKnifeCount: 6
+  - name: STAGE 5 (BOSS)
+    index: 4
+    isBoss: 1
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: 95936747ce8a9472bbb00a7a0787bb14, type: 3}
+    _rotateSpeed: 3.5
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 2
+    _maxItemCount: 2
+    _minStuckKnifeCount: 2
+    _maxStuckKnifeCount: 2
+    _throwableKnifeCount: 8
+  - name: STAGE 6
+    index: 5
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: 6ec01ff2c33f142bd84a89e8664d3d59, type: 3}
+    _rotateSpeed: 4
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 1
+    _minStuckKnifeCount: 1
+    _maxStuckKnifeCount: 2
+    _throwableKnifeCount: 7
+  - name: STAGE 7
+    index: 6
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: 6ec01ff2c33f142bd84a89e8664d3d59, type: 3}
+    _rotateSpeed: 4
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 1
+    _minStuckKnifeCount: 1
+    _maxStuckKnifeCount: 2
+    _throwableKnifeCount: 7
+  - name: STAGE 8
+    index: 7
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: 6ec01ff2c33f142bd84a89e8664d3d59, type: 3}
+    _rotateSpeed: 4
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 1
+    _minStuckKnifeCount: 1
+    _maxStuckKnifeCount: 2
+    _throwableKnifeCount: 7
+  - name: STAGE 9
+    index: 8
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: 6ec01ff2c33f142bd84a89e8664d3d59, type: 3}
+    _rotateSpeed: 4
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 1
+    _minStuckKnifeCount: 1
+    _maxStuckKnifeCount: 2
+    _throwableKnifeCount: 7
+  - name: STAGE 10 (BOSS)
+    index: 9
+    isBoss: 1
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: 95936747ce8a9472bbb00a7a0787bb14, type: 3}
+    - {fileID: 8742526383922687057, guid: a2b0cbc4c8a224171853da65d26c4ad3, type: 3}
+    _rotateSpeed: 4
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 2
+    _maxItemCount: 2
+    _minStuckKnifeCount: 2
+    _maxStuckKnifeCount: 2
+    _throwableKnifeCount: 8
+  - name: STAGE 11
+    index: 10
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: e511b578095044f05b48f566fd167e9d, type: 3}
+    _rotateSpeed: 4.5
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 1
+    _minStuckKnifeCount: 1
+    _maxStuckKnifeCount: 2
+    _throwableKnifeCount: 7
+  - name: STAGE 12
+    index: 11
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: e511b578095044f05b48f566fd167e9d, type: 3}
+    _rotateSpeed: 4.5
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 1
+    _minStuckKnifeCount: 1
+    _maxStuckKnifeCount: 2
+    _throwableKnifeCount: 7
+  - name: STAGE 13
+    index: 12
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: e511b578095044f05b48f566fd167e9d, type: 3}
+    _rotateSpeed: 4.5
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 1
+    _minStuckKnifeCount: 1
+    _maxStuckKnifeCount: 2
+    _throwableKnifeCount: 7
+  - name: STAGE 14
+    index: 13
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: e511b578095044f05b48f566fd167e9d, type: 3}
+    _rotateSpeed: 4.5
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 1
+    _minStuckKnifeCount: 1
+    _maxStuckKnifeCount: 2
+    _throwableKnifeCount: 7
+  - name: STAGE 15 (BOSS)
+    index: 14
+    isBoss: 1
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: 95936747ce8a9472bbb00a7a0787bb14, type: 3}
+    - {fileID: 8742526383922687057, guid: a2b0cbc4c8a224171853da65d26c4ad3, type: 3}
+    _rotateSpeed: 4
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 3
+    _maxItemCount: 3
+    _minStuckKnifeCount: 3
+    _maxStuckKnifeCount: 3
+    _throwableKnifeCount: 10
+  - name: STAGE 16
+    index: 15
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: cb97dbfb29527450cab851115114bf64, type: 3}
+    _rotateSpeed: 5
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 1
+    _minStuckKnifeCount: 1
+    _maxStuckKnifeCount: 2
+    _throwableKnifeCount: 8
+  - name: STAGE 17
+    index: 16
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: cb97dbfb29527450cab851115114bf64, type: 3}
+    _rotateSpeed: 5
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 1
+    _minStuckKnifeCount: 1
+    _maxStuckKnifeCount: 2
+    _throwableKnifeCount: 8
+  - name: STAGE 18
+    index: 17
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: cb97dbfb29527450cab851115114bf64, type: 3}
+    _rotateSpeed: 5
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 1
+    _minStuckKnifeCount: 1
+    _maxStuckKnifeCount: 2
+    _throwableKnifeCount: 8
+  - name: STAGE 19
+    index: 18
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: cb97dbfb29527450cab851115114bf64, type: 3}
+    _rotateSpeed: 5
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 1
+    _minStuckKnifeCount: 1
+    _maxStuckKnifeCount: 2
+    _throwableKnifeCount: 8
+  - name: STAGE 20 (BOSS)
+    index: 19
+    isBoss: 1
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: 95936747ce8a9472bbb00a7a0787bb14, type: 3}
+    - {fileID: 8742526383922687057, guid: a2b0cbc4c8a224171853da65d26c4ad3, type: 3}
+    - {fileID: 8742526383922687057, guid: c97c5896677a34fb9b24d78e447c6ed4, type: 3}
+    _rotateSpeed: 4
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 3
+    _maxItemCount: 3
+    _minStuckKnifeCount: 3
+    _maxStuckKnifeCount: 3
+    _throwableKnifeCount: 10
+  - name: STAGE 21
+    index: 20
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: a85f35dcea9c54792a50513c39fb270d, type: 3}
+    _rotateSpeed: 5.5
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 1
+    _minStuckKnifeCount: 1
+    _maxStuckKnifeCount: 2
+    _throwableKnifeCount: 8
+  - name: STAGE 22
+    index: 21
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: a85f35dcea9c54792a50513c39fb270d, type: 3}
+    _rotateSpeed: 5.5
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 1
+    _minStuckKnifeCount: 1
+    _maxStuckKnifeCount: 2
+    _throwableKnifeCount: 8
+  - name: STAGE 23
+    index: 22
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: a85f35dcea9c54792a50513c39fb270d, type: 3}
+    _rotateSpeed: 5.5
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 1
+    _minStuckKnifeCount: 1
+    _maxStuckKnifeCount: 2
+    _throwableKnifeCount: 8
+  - name: STAGE 24
+    index: 23
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: a85f35dcea9c54792a50513c39fb270d, type: 3}
+    _rotateSpeed: 5.5
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 1
+    _minStuckKnifeCount: 1
+    _maxStuckKnifeCount: 2
+    _throwableKnifeCount: 8
+  - name: STAGE 25 (BOSS)
+    index: 24
+    isBoss: 1
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: 95936747ce8a9472bbb00a7a0787bb14, type: 3}
+    - {fileID: 8742526383922687057, guid: a2b0cbc4c8a224171853da65d26c4ad3, type: 3}
+    - {fileID: 8742526383922687057, guid: c97c5896677a34fb9b24d78e447c6ed4, type: 3}
+    _rotateSpeed: 4
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 3
+    _maxItemCount: 3
+    _minStuckKnifeCount: 1
+    _maxStuckKnifeCount: 1
+    _throwableKnifeCount: 10
+  - name: STAGE 26
+    index: 25
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: bb15217a1214749aaa956fd2b30d1e1c, type: 3}
+    _rotateSpeed: 5
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 1
+    _minStuckKnifeCount: 1
+    _maxStuckKnifeCount: 2
+    _throwableKnifeCount: 8
+  - name: STAGE 27
+    index: 26
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: bb15217a1214749aaa956fd2b30d1e1c, type: 3}
+    _rotateSpeed: 5
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 1
+    _minStuckKnifeCount: 1
+    _maxStuckKnifeCount: 2
+    _throwableKnifeCount: 8
+  - name: STAGE 28
+    index: 27
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: bb15217a1214749aaa956fd2b30d1e1c, type: 3}
+    _rotateSpeed: 5
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 1
+    _minStuckKnifeCount: 1
+    _maxStuckKnifeCount: 2
+    _throwableKnifeCount: 8
+  - name: STAGE 29
+    index: 28
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: bb15217a1214749aaa956fd2b30d1e1c, type: 3}
+    _rotateSpeed: 5
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 1
+    _minStuckKnifeCount: 1
+    _maxStuckKnifeCount: 2
+    _throwableKnifeCount: 8
+  - name: STAGE 30 (BOSS)
+    index: 29
+    isBoss: 1
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: 95936747ce8a9472bbb00a7a0787bb14, type: 3}
+    - {fileID: 8742526383922687057, guid: a2b0cbc4c8a224171853da65d26c4ad3, type: 3}
+    - {fileID: 8742526383922687057, guid: c97c5896677a34fb9b24d78e447c6ed4, type: 3}
+    - {fileID: 8742526383922687057, guid: a5f3ec1bdce944e5fb3a75aac9d0ee60, type: 3}
+    _rotateSpeed: 4
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 3
+    _maxItemCount: 3
+    _minStuckKnifeCount: 2
+    _maxStuckKnifeCount: 2
+    _throwableKnifeCount: 10
+  - name: STAGE 31
+    index: 30
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: bb15217a1214749aaa956fd2b30d1e1c, type: 3}
+    _rotateSpeed: 5
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 1
+    _minStuckKnifeCount: 2
+    _maxStuckKnifeCount: 3
+    _throwableKnifeCount: 8
+  - name: STAGE 32
+    index: 31
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: bb15217a1214749aaa956fd2b30d1e1c, type: 3}
+    _rotateSpeed: 5
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 1
+    _minStuckKnifeCount: 2
+    _maxStuckKnifeCount: 3
+    _throwableKnifeCount: 8
+  - name: STAGE 33
+    index: 32
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: bb15217a1214749aaa956fd2b30d1e1c, type: 3}
+    _rotateSpeed: 5
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 1
+    _minStuckKnifeCount: 2
+    _maxStuckKnifeCount: 3
+    _throwableKnifeCount: 8
+  - name: STAGE 34
+    index: 33
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: bb15217a1214749aaa956fd2b30d1e1c, type: 3}
+    _rotateSpeed: 5
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 1
+    _minStuckKnifeCount: 2
+    _maxStuckKnifeCount: 3
+    _throwableKnifeCount: 8
+  - name: STAGE 35 (BOSS)
+    index: 34
+    isBoss: 1
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: 95936747ce8a9472bbb00a7a0787bb14, type: 3}
+    - {fileID: 8742526383922687057, guid: a2b0cbc4c8a224171853da65d26c4ad3, type: 3}
+    - {fileID: 8742526383922687057, guid: c97c5896677a34fb9b24d78e447c6ed4, type: 3}
+    - {fileID: 8742526383922687057, guid: a5f3ec1bdce944e5fb3a75aac9d0ee60, type: 3}
+    _rotateSpeed: 4.5
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 3
+    _maxItemCount: 3
+    _minStuckKnifeCount: 2
+    _maxStuckKnifeCount: 2
+    _throwableKnifeCount: 10
+  - name: STAGE 36
+    index: 35
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: 93f4e848f20c14fd38790149e7982d35, type: 3}
+    _rotateSpeed: 5.5
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 1
+    _minStuckKnifeCount: 1
+    _maxStuckKnifeCount: 2
+    _throwableKnifeCount: 9
+  - name: STAGE 37
+    index: 36
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: 93f4e848f20c14fd38790149e7982d35, type: 3}
+    _rotateSpeed: 5.5
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 1
+    _minStuckKnifeCount: 1
+    _maxStuckKnifeCount: 2
+    _throwableKnifeCount: 9
+  - name: STAGE 38
+    index: 37
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: 93f4e848f20c14fd38790149e7982d35, type: 3}
+    _rotateSpeed: 5.5
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 1
+    _minStuckKnifeCount: 1
+    _maxStuckKnifeCount: 2
+    _throwableKnifeCount: 9
+  - name: STAGE 39
+    index: 38
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: 93f4e848f20c14fd38790149e7982d35, type: 3}
+    _rotateSpeed: 5.5
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 1
+    _minStuckKnifeCount: 1
+    _maxStuckKnifeCount: 2
+    _throwableKnifeCount: 9
+  - name: STAGE 40 (BOSS)
+    index: 39
+    isBoss: 1
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: 95936747ce8a9472bbb00a7a0787bb14, type: 3}
+    - {fileID: 8742526383922687057, guid: a2b0cbc4c8a224171853da65d26c4ad3, type: 3}
+    - {fileID: 8742526383922687057, guid: c97c5896677a34fb9b24d78e447c6ed4, type: 3}
+    - {fileID: 8742526383922687057, guid: a5f3ec1bdce944e5fb3a75aac9d0ee60, type: 3}
+    _rotateSpeed: 4.5
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 3
+    _maxItemCount: 3
+    _minStuckKnifeCount: 2
+    _maxStuckKnifeCount: 2
+    _throwableKnifeCount: 12
+  - name: STAGE 41
+    index: 40
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: 93f4e848f20c14fd38790149e7982d35, type: 3}
+    _rotateSpeed: 5.5
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 1
+    _minStuckKnifeCount: 2
+    _maxStuckKnifeCount: 3
+    _throwableKnifeCount: 9
+  - name: STAGE 42
+    index: 41
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: 93f4e848f20c14fd38790149e7982d35, type: 3}
+    _rotateSpeed: 5.5
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 1
+    _minStuckKnifeCount: 2
+    _maxStuckKnifeCount: 3
+    _throwableKnifeCount: 9
+  - name: STAGE 43
+    index: 42
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: 93f4e848f20c14fd38790149e7982d35, type: 3}
+    _rotateSpeed: 5.5
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 1
+    _minStuckKnifeCount: 2
+    _maxStuckKnifeCount: 3
+    _throwableKnifeCount: 9
+  - name: STAGE 44
+    index: 43
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: 93f4e848f20c14fd38790149e7982d35, type: 3}
+    _rotateSpeed: 5.5
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 1
+    _minStuckKnifeCount: 2
+    _maxStuckKnifeCount: 3
+    _throwableKnifeCount: 9
+  - name: STAGE 45 (BOSS)
+    index: 44
+    isBoss: 1
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: 95936747ce8a9472bbb00a7a0787bb14, type: 3}
+    - {fileID: 8742526383922687057, guid: a2b0cbc4c8a224171853da65d26c4ad3, type: 3}
+    - {fileID: 8742526383922687057, guid: c97c5896677a34fb9b24d78e447c6ed4, type: 3}
+    - {fileID: 8742526383922687057, guid: a5f3ec1bdce944e5fb3a75aac9d0ee60, type: 3}
+    _rotateSpeed: 5
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 3
+    _maxItemCount: 3
+    _minStuckKnifeCount: 2
+    _maxStuckKnifeCount: 2
+    _throwableKnifeCount: 12
+  - name: STAGE 46
+    index: 45
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: 93f4e848f20c14fd38790149e7982d35, type: 3}
+    _rotateSpeed: 5.5
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 1
+    _minStuckKnifeCount: 3
+    _maxStuckKnifeCount: 4
+    _throwableKnifeCount: 9
+  - name: STAGE 47
+    index: 46
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: 93f4e848f20c14fd38790149e7982d35, type: 3}
+    _rotateSpeed: 5.5
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 1
+    _minStuckKnifeCount: 3
+    _maxStuckKnifeCount: 4
+    _throwableKnifeCount: 9
+  - name: STAGE 48
+    index: 47
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: 93f4e848f20c14fd38790149e7982d35, type: 3}
+    _rotateSpeed: 5.5
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 1
+    _minStuckKnifeCount: 3
+    _maxStuckKnifeCount: 4
+    _throwableKnifeCount: 9
+  - name: STAGE 49
+    index: 48
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: 93f4e848f20c14fd38790149e7982d35, type: 3}
+    _rotateSpeed: 5.5
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 1
+    _minStuckKnifeCount: 3
+    _maxStuckKnifeCount: 4
+    _throwableKnifeCount: 9
+  - name: STAGE 50 (BOSS)
+    index: 49
+    isBoss: 1
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: 95936747ce8a9472bbb00a7a0787bb14, type: 3}
+    - {fileID: 8742526383922687057, guid: a2b0cbc4c8a224171853da65d26c4ad3, type: 3}
+    - {fileID: 8742526383922687057, guid: a5f3ec1bdce944e5fb3a75aac9d0ee60, type: 3}
+    - {fileID: 8742526383922687057, guid: 1c365703f4d4343e59639df8a54acbcf, type: 3}
+    - {fileID: 8742526383922687057, guid: c97c5896677a34fb9b24d78e447c6ed4, type: 3}
+    _rotateSpeed: 5
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 3
+    _maxItemCount: 3
+    _minStuckKnifeCount: 2
+    _maxStuckKnifeCount: 2
+    _throwableKnifeCount: 12
+  - name: STAGE 51
+    index: 50
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: 93f4e848f20c14fd38790149e7982d35, type: 3}
+    _rotateSpeed: 5.5
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 2
+    _maxItemCount: 4
+    _minStuckKnifeCount: 1
+    _maxStuckKnifeCount: 2
+    _throwableKnifeCount: 10
+  - name: STAGE 52
+    index: 51
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: 93f4e848f20c14fd38790149e7982d35, type: 3}
+    _rotateSpeed: 5.5
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 2
+    _maxItemCount: 4
+    _minStuckKnifeCount: 1
+    _maxStuckKnifeCount: 2
+    _throwableKnifeCount: 10
+  - name: STAGE 53
+    index: 52
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: 93f4e848f20c14fd38790149e7982d35, type: 3}
+    _rotateSpeed: 5.5
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 2
+    _maxItemCount: 4
+    _minStuckKnifeCount: 1
+    _maxStuckKnifeCount: 2
+    _throwableKnifeCount: 10
+  - name: STAGE 54
+    index: 53
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: 93f4e848f20c14fd38790149e7982d35, type: 3}
+    _rotateSpeed: 5.5
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 2
+    _maxItemCount: 4
+    _minStuckKnifeCount: 1
+    _maxStuckKnifeCount: 2
+    _throwableKnifeCount: 10
+  - name: STAGE 55 (BOSS)
+    index: 54
+    isBoss: 1
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: 95936747ce8a9472bbb00a7a0787bb14, type: 3}
+    - {fileID: 8742526383922687057, guid: a2b0cbc4c8a224171853da65d26c4ad3, type: 3}
+    - {fileID: 8742526383922687057, guid: c97c5896677a34fb9b24d78e447c6ed4, type: 3}
+    - {fileID: 8742526383922687057, guid: a5f3ec1bdce944e5fb3a75aac9d0ee60, type: 3}
+    - {fileID: 8742526383922687057, guid: 1c365703f4d4343e59639df8a54acbcf, type: 3}
+    _rotateSpeed: 5.5
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 2
+    _maxItemCount: 4
+    _minStuckKnifeCount: 2
+    _maxStuckKnifeCount: 3
+    _throwableKnifeCount: 12
+  - name: STAGE 56
+    index: 55
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: 93f4e848f20c14fd38790149e7982d35, type: 3}
+    _rotateSpeed: 5.5
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 2
+    _maxItemCount: 4
+    _minStuckKnifeCount: 2
+    _maxStuckKnifeCount: 3
+    _throwableKnifeCount: 10
+  - name: STAGE 57
+    index: 56
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: 93f4e848f20c14fd38790149e7982d35, type: 3}
+    _rotateSpeed: 5.5
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 2
+    _maxItemCount: 4
+    _minStuckKnifeCount: 2
+    _maxStuckKnifeCount: 3
+    _throwableKnifeCount: 10
+  - name: STAGE 58
+    index: 57
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: 93f4e848f20c14fd38790149e7982d35, type: 3}
+    _rotateSpeed: 5.5
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 2
+    _maxItemCount: 4
+    _minStuckKnifeCount: 2
+    _maxStuckKnifeCount: 3
+    _throwableKnifeCount: 10
+  - name: STAGE 59
+    index: 58
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: 93f4e848f20c14fd38790149e7982d35, type: 3}
+    _rotateSpeed: 5.5
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 2
+    _maxItemCount: 4
+    _minStuckKnifeCount: 2
+    _maxStuckKnifeCount: 3
+    _throwableKnifeCount: 10
+  - name: STAGE 60 (BOSS)
+    index: 59
+    isBoss: 1
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: 95936747ce8a9472bbb00a7a0787bb14, type: 3}
+    - {fileID: 8742526383922687057, guid: a5f3ec1bdce944e5fb3a75aac9d0ee60, type: 3}
+    - {fileID: 8742526383922687057, guid: c97c5896677a34fb9b24d78e447c6ed4, type: 3}
+    - {fileID: 8742526383922687057, guid: a2b0cbc4c8a224171853da65d26c4ad3, type: 3}
+    - {fileID: 8742526383922687057, guid: 1c365703f4d4343e59639df8a54acbcf, type: 3}
+    _rotateSpeed: 5.5
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 2
+    _maxItemCount: 4
+    _minStuckKnifeCount: 2
+    _maxStuckKnifeCount: 3
+    _throwableKnifeCount: 12
+  - name: STAGE 61
+    index: 60
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: dcf031d81ba9448d3ae99206487227f3, type: 3}
+    _rotateSpeed: 6
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 2
+    _maxItemCount: 4
+    _minStuckKnifeCount: 1
+    _maxStuckKnifeCount: 2
+    _throwableKnifeCount: 10
+  - name: STAGE 62
+    index: 61
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: dcf031d81ba9448d3ae99206487227f3, type: 3}
+    _rotateSpeed: 6
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 2
+    _maxItemCount: 4
+    _minStuckKnifeCount: 1
+    _maxStuckKnifeCount: 2
+    _throwableKnifeCount: 10
+  - name: STAGE 63
+    index: 62
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: dcf031d81ba9448d3ae99206487227f3, type: 3}
+    _rotateSpeed: 6
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 2
+    _maxItemCount: 4
+    _minStuckKnifeCount: 1
+    _maxStuckKnifeCount: 2
+    _throwableKnifeCount: 10
+  - name: STAGE 64
+    index: 63
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: dcf031d81ba9448d3ae99206487227f3, type: 3}
+    _rotateSpeed: 6
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 2
+    _maxItemCount: 4
+    _minStuckKnifeCount: 1
+    _maxStuckKnifeCount: 2
+    _throwableKnifeCount: 10
+  - name: STAGE 65 (BOSS)
+    index: 64
+    isBoss: 1
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: 95936747ce8a9472bbb00a7a0787bb14, type: 3}
+    - {fileID: 8742526383922687057, guid: a5f3ec1bdce944e5fb3a75aac9d0ee60, type: 3}
+    - {fileID: 8742526383922687057, guid: c97c5896677a34fb9b24d78e447c6ed4, type: 3}
+    - {fileID: 8742526383922687057, guid: a2b0cbc4c8a224171853da65d26c4ad3, type: 3}
+    - {fileID: 8742526383922687057, guid: 1c365703f4d4343e59639df8a54acbcf, type: 3}
+    _rotateSpeed: 5.5
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 2
+    _maxItemCount: 4
+    _minStuckKnifeCount: 2
+    _maxStuckKnifeCount: 3
+    _throwableKnifeCount: 14
+  - name: STAGE 66
+    index: 65
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: dcf031d81ba9448d3ae99206487227f3, type: 3}
+    _rotateSpeed: 6
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 2
+    _maxItemCount: 4
+    _minStuckKnifeCount: 2
+    _maxStuckKnifeCount: 3
+    _throwableKnifeCount: 10
+  - name: STAGE 67
+    index: 66
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: dcf031d81ba9448d3ae99206487227f3, type: 3}
+    _rotateSpeed: 6
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 2
+    _maxItemCount: 4
+    _minStuckKnifeCount: 2
+    _maxStuckKnifeCount: 3
+    _throwableKnifeCount: 10
+  - name: STAGE 68
+    index: 67
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: dcf031d81ba9448d3ae99206487227f3, type: 3}
+    _rotateSpeed: 6
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 2
+    _maxItemCount: 4
+    _minStuckKnifeCount: 2
+    _maxStuckKnifeCount: 3
+    _throwableKnifeCount: 10
+  - name: STAGE 69
+    index: 68
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: dcf031d81ba9448d3ae99206487227f3, type: 3}
+    _rotateSpeed: 6
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 2
+    _maxItemCount: 4
+    _minStuckKnifeCount: 2
+    _maxStuckKnifeCount: 3
+    _throwableKnifeCount: 10
+  - name: STAGE 70 (BOSS)
+    index: 69
+    isBoss: 1
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: 95936747ce8a9472bbb00a7a0787bb14, type: 3}
+    - {fileID: 8742526383922687057, guid: a5f3ec1bdce944e5fb3a75aac9d0ee60, type: 3}
+    - {fileID: 8742526383922687057, guid: c97c5896677a34fb9b24d78e447c6ed4, type: 3}
+    - {fileID: 8742526383922687057, guid: a2b0cbc4c8a224171853da65d26c4ad3, type: 3}
+    - {fileID: 8742526383922687057, guid: 1c365703f4d4343e59639df8a54acbcf, type: 3}
+    - {fileID: 8742526383922687057, guid: e9c79a31a42cb415ebe7707666a80f88, type: 3}
+    _rotateSpeed: 6
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 2
+    _maxItemCount: 4
+    _minStuckKnifeCount: 2
+    _maxStuckKnifeCount: 3
+    _throwableKnifeCount: 14
+  - name: STAGE 71
+    index: 70
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: adb97fd74ba6b4afe896f2f44964697c, type: 3}
+    _rotateSpeed: 6
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 1
+    _minStuckKnifeCount: 1
+    _maxStuckKnifeCount: 2
+    _throwableKnifeCount: 12
+  - name: STAGE 72
+    index: 71
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: adb97fd74ba6b4afe896f2f44964697c, type: 3}
+    _rotateSpeed: 6
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 1
+    _minStuckKnifeCount: 1
+    _maxStuckKnifeCount: 2
+    _throwableKnifeCount: 12
+  - name: STAGE 73
+    index: 72
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: adb97fd74ba6b4afe896f2f44964697c, type: 3}
+    _rotateSpeed: 6
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 1
+    _minStuckKnifeCount: 1
+    _maxStuckKnifeCount: 2
+    _throwableKnifeCount: 12
+  - name: STAGE 74
+    index: 73
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: adb97fd74ba6b4afe896f2f44964697c, type: 3}
+    _rotateSpeed: 6
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 1
+    _minStuckKnifeCount: 1
+    _maxStuckKnifeCount: 2
+    _throwableKnifeCount: 12
+  - name: STAGE 75 (BOSS)
+    index: 74
+    isBoss: 1
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: 95936747ce8a9472bbb00a7a0787bb14, type: 3}
+    - {fileID: 8742526383922687057, guid: a5f3ec1bdce944e5fb3a75aac9d0ee60, type: 3}
+    - {fileID: 8742526383922687057, guid: c97c5896677a34fb9b24d78e447c6ed4, type: 3}
+    - {fileID: 8742526383922687057, guid: a2b0cbc4c8a224171853da65d26c4ad3, type: 3}
+    - {fileID: 8742526383922687057, guid: 1c365703f4d4343e59639df8a54acbcf, type: 3}
+    - {fileID: 8742526383922687057, guid: e9c79a31a42cb415ebe7707666a80f88, type: 3}
+    _rotateSpeed: 6
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 5
+    _maxItemCount: 5
+    _minStuckKnifeCount: 1
+    _maxStuckKnifeCount: 3
+    _throwableKnifeCount: 16
+  - name: STAGE 76
+    index: 75
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: adb97fd74ba6b4afe896f2f44964697c, type: 3}
+    _rotateSpeed: 6
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 1
+    _minStuckKnifeCount: 2
+    _maxStuckKnifeCount: 3
+    _throwableKnifeCount: 12
+  - name: STAGE 77
+    index: 76
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: adb97fd74ba6b4afe896f2f44964697c, type: 3}
+    _rotateSpeed: 6
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 1
+    _minStuckKnifeCount: 2
+    _maxStuckKnifeCount: 3
+    _throwableKnifeCount: 12
+  - name: STAGE 78
+    index: 77
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: adb97fd74ba6b4afe896f2f44964697c, type: 3}
+    _rotateSpeed: 6
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 1
+    _minStuckKnifeCount: 2
+    _maxStuckKnifeCount: 3
+    _throwableKnifeCount: 12
+  - name: STAGE 79
+    index: 78
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: adb97fd74ba6b4afe896f2f44964697c, type: 3}
+    _rotateSpeed: 6
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 1
+    _minStuckKnifeCount: 2
+    _maxStuckKnifeCount: 3
+    _throwableKnifeCount: 12
+  - name: STAGE 80 (BOSS)
+    index: 79
+    isBoss: 1
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: 95936747ce8a9472bbb00a7a0787bb14, type: 3}
+    - {fileID: 8742526383922687057, guid: a5f3ec1bdce944e5fb3a75aac9d0ee60, type: 3}
+    - {fileID: 8742526383922687057, guid: c97c5896677a34fb9b24d78e447c6ed4, type: 3}
+    - {fileID: 8742526383922687057, guid: a2b0cbc4c8a224171853da65d26c4ad3, type: 3}
+    - {fileID: 8742526383922687057, guid: 1c365703f4d4343e59639df8a54acbcf, type: 3}
+    - {fileID: 8742526383922687057, guid: e9c79a31a42cb415ebe7707666a80f88, type: 3}
+    _rotateSpeed: 6
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 5
+    _maxItemCount: 5
+    _minStuckKnifeCount: 1
+    _maxStuckKnifeCount: 3
+    _throwableKnifeCount: 16
+  - name: STAGE 81
+    index: 80
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: adb97fd74ba6b4afe896f2f44964697c, type: 3}
+    _rotateSpeed: 6.5
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 1
+    _minStuckKnifeCount: 1
+    _maxStuckKnifeCount: 2
+    _throwableKnifeCount: 10
+  - name: STAGE 82
+    index: 81
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: adb97fd74ba6b4afe896f2f44964697c, type: 3}
+    _rotateSpeed: 6.5
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 1
+    _minStuckKnifeCount: 1
+    _maxStuckKnifeCount: 2
+    _throwableKnifeCount: 10
+  - name: STAGE 83
+    index: 82
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: adb97fd74ba6b4afe896f2f44964697c, type: 3}
+    _rotateSpeed: 6.5
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 1
+    _minStuckKnifeCount: 1
+    _maxStuckKnifeCount: 2
+    _throwableKnifeCount: 10
+  - name: STAGE 84
+    index: 83
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: adb97fd74ba6b4afe896f2f44964697c, type: 3}
+    _rotateSpeed: 6.5
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 1
+    _minStuckKnifeCount: 1
+    _maxStuckKnifeCount: 2
+    _throwableKnifeCount: 10
+  - name: STAGE 85 (BOSS)
+    index: 84
+    isBoss: 1
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: 95936747ce8a9472bbb00a7a0787bb14, type: 3}
+    - {fileID: 8742526383922687057, guid: a5f3ec1bdce944e5fb3a75aac9d0ee60, type: 3}
+    - {fileID: 8742526383922687057, guid: c97c5896677a34fb9b24d78e447c6ed4, type: 3}
+    - {fileID: 8742526383922687057, guid: a2b0cbc4c8a224171853da65d26c4ad3, type: 3}
+    - {fileID: 8742526383922687057, guid: 1c365703f4d4343e59639df8a54acbcf, type: 3}
+    - {fileID: 8742526383922687057, guid: e9c79a31a42cb415ebe7707666a80f88, type: 3}
+    _rotateSpeed: 6.5
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 5
+    _maxItemCount: 5
+    _minStuckKnifeCount: 1
+    _maxStuckKnifeCount: 3
+    _throwableKnifeCount: 14
+  - name: STAGE 86
+    index: 85
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: adb97fd74ba6b4afe896f2f44964697c, type: 3}
+    _rotateSpeed: 6.5
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 1
+    _minStuckKnifeCount: 2
+    _maxStuckKnifeCount: 3
+    _throwableKnifeCount: 10
+  - name: STAGE 87
+    index: 86
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: adb97fd74ba6b4afe896f2f44964697c, type: 3}
+    _rotateSpeed: 6.5
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 1
+    _minStuckKnifeCount: 2
+    _maxStuckKnifeCount: 3
+    _throwableKnifeCount: 10
+  - name: STAGE 88
+    index: 87
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: adb97fd74ba6b4afe896f2f44964697c, type: 3}
+    _rotateSpeed: 6.5
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 1
+    _minStuckKnifeCount: 2
+    _maxStuckKnifeCount: 3
+    _throwableKnifeCount: 10
+  - name: STAGE 89
+    index: 88
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: adb97fd74ba6b4afe896f2f44964697c, type: 3}
+    _rotateSpeed: 6.5
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 1
+    _minStuckKnifeCount: 2
+    _maxStuckKnifeCount: 3
+    _throwableKnifeCount: 10
+  - name: STAGE 90 (BOSS)
+    index: 89
+    isBoss: 1
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: 95936747ce8a9472bbb00a7a0787bb14, type: 3}
+    - {fileID: 8742526383922687057, guid: a5f3ec1bdce944e5fb3a75aac9d0ee60, type: 3}
+    - {fileID: 8742526383922687057, guid: c97c5896677a34fb9b24d78e447c6ed4, type: 3}
+    - {fileID: 8742526383922687057, guid: a2b0cbc4c8a224171853da65d26c4ad3, type: 3}
+    - {fileID: 8742526383922687057, guid: 1c365703f4d4343e59639df8a54acbcf, type: 3}
+    - {fileID: 8742526383922687057, guid: e9c79a31a42cb415ebe7707666a80f88, type: 3}
+    - {fileID: 8742526383922687057, guid: 6c45d1d3e50df49b6abd453ac35bfa19, type: 3}
+    _rotateSpeed: 6.5
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 5
+    _maxItemCount: 5
+    _minStuckKnifeCount: 1
+    _maxStuckKnifeCount: 3
+    _throwableKnifeCount: 14
+  - name: STAGE 91
+    index: 90
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: baa6e33cac4b645c8b5630f00d18f91e, type: 3}
+    _rotateSpeed: 6
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 1
+    _minStuckKnifeCount: 1
+    _maxStuckKnifeCount: 4
+    _throwableKnifeCount: 14
+  - name: STAGE 92
+    index: 91
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: baa6e33cac4b645c8b5630f00d18f91e, type: 3}
+    _rotateSpeed: 6
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 1
+    _minStuckKnifeCount: 1
+    _maxStuckKnifeCount: 4
+    _throwableKnifeCount: 14
+  - name: STAGE 93
+    index: 92
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: baa6e33cac4b645c8b5630f00d18f91e, type: 3}
+    _rotateSpeed: 6
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 1
+    _minStuckKnifeCount: 1
+    _maxStuckKnifeCount: 4
+    _throwableKnifeCount: 14
+  - name: STAGE 94
+    index: 93
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: baa6e33cac4b645c8b5630f00d18f91e, type: 3}
+    _rotateSpeed: 6
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 1
+    _minStuckKnifeCount: 1
+    _maxStuckKnifeCount: 4
+    _throwableKnifeCount: 14
+  - name: STAGE 95 (BOSS)
+    index: 94
+    isBoss: 1
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: 95936747ce8a9472bbb00a7a0787bb14, type: 3}
+    - {fileID: 8742526383922687057, guid: a5f3ec1bdce944e5fb3a75aac9d0ee60, type: 3}
+    - {fileID: 8742526383922687057, guid: c97c5896677a34fb9b24d78e447c6ed4, type: 3}
+    - {fileID: 8742526383922687057, guid: a2b0cbc4c8a224171853da65d26c4ad3, type: 3}
+    - {fileID: 8742526383922687057, guid: 1c365703f4d4343e59639df8a54acbcf, type: 3}
+    - {fileID: 8742526383922687057, guid: e9c79a31a42cb415ebe7707666a80f88, type: 3}
+    - {fileID: 8742526383922687057, guid: 6c45d1d3e50df49b6abd453ac35bfa19, type: 3}
+    _rotateSpeed: 6.5
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 5
+    _maxItemCount: 5
+    _minStuckKnifeCount: 0
+    _maxStuckKnifeCount: 2
+    _throwableKnifeCount: 14
+  - name: STAGE 96
+    index: 95
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: 88031557e6b784177ac2f72beae7d161, type: 3}
+    _rotateSpeed: 6.5
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 1
+    _minStuckKnifeCount: 1
+    _maxStuckKnifeCount: 4
+    _throwableKnifeCount: 12
+  - name: STAGE 97
+    index: 96
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: 88031557e6b784177ac2f72beae7d161, type: 3}
+    _rotateSpeed: 6.5
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 1
+    _minStuckKnifeCount: 1
+    _maxStuckKnifeCount: 4
+    _throwableKnifeCount: 12
+  - name: STAGE 98
+    index: 97
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: 88031557e6b784177ac2f72beae7d161, type: 3}
+    _rotateSpeed: 6.5
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 1
+    _minStuckKnifeCount: 1
+    _maxStuckKnifeCount: 4
+    _throwableKnifeCount: 12
+  - name: STAGE 99
+    index: 98
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: 88031557e6b784177ac2f72beae7d161, type: 3}
+    _rotateSpeed: 6.5
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 1
+    _minStuckKnifeCount: 1
+    _maxStuckKnifeCount: 4
+    _throwableKnifeCount: 12
+  - name: STAGE 100 (BOSS)
+    index: 99
+    isBoss: 1
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: 95936747ce8a9472bbb00a7a0787bb14, type: 3}
+    - {fileID: 8742526383922687057, guid: a5f3ec1bdce944e5fb3a75aac9d0ee60, type: 3}
+    - {fileID: 8742526383922687057, guid: c97c5896677a34fb9b24d78e447c6ed4, type: 3}
+    - {fileID: 8742526383922687057, guid: a2b0cbc4c8a224171853da65d26c4ad3, type: 3}
+    - {fileID: 8742526383922687057, guid: 1c365703f4d4343e59639df8a54acbcf, type: 3}
+    - {fileID: 8742526383922687057, guid: e9c79a31a42cb415ebe7707666a80f88, type: 3}
+    - {fileID: 8742526383922687057, guid: 6c45d1d3e50df49b6abd453ac35bfa19, type: 3}
+    _rotateSpeed: 6.5
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 5
+    _maxItemCount: 5
+    _minStuckKnifeCount: 1
+    _maxStuckKnifeCount: 4
+    _throwableKnifeCount: 14

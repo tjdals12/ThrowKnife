@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b59171ebc29d44884ba3a065e2d84db4, type: 3}
+  m_Name: TestDatabase
+  m_EditorClassIdentifier: 
+  _loopStage: 3
+  infos:
+  - name: STAGE 1
+    index: 0
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: 51c4b3c22d847465cb31e35d32716d5e, type: 3}
+    _rotateSpeed: 3
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 0
+    _minStuckKnifeCount: 2
+    _maxStuckKnifeCount: 3
+    _throwableKnifeCount: 6
+  - name: STAGE 2
+    index: 1
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: 16f7cc352dfeb4765bb31f5ec2646a1b, type: 3}
+    _rotateSpeed: 3
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 0
+    _minStuckKnifeCount: 0
+    _maxStuckKnifeCount: 0
+    _throwableKnifeCount: 6
+  - name: STAGE 3
+    index: 2
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: 9c378be8db16f40adb91f61598b60461, type: 3}
+    _rotateSpeed: 4
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 0
+    _minStuckKnifeCount: 1
+    _maxStuckKnifeCount: 2
+    _throwableKnifeCount: 6
+  - name: STAGE 4
+    index: 3
+    isBoss: 0
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: a31a49a7f70434361a587dcf00c4c3dc, type: 3}
+    _rotateSpeed: 4
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 0
+    _minStuckKnifeCount: 0
+    _maxStuckKnifeCount: 0
+    _throwableKnifeCount: 7
+  - name: STAGE 5 (BOSS)
+    index: 4
+    isBoss: 1
+    _targetsPool:
+    - {fileID: 8742526383922687057, guid: b19214eea62b64d1e8204802ae4d2c73, type: 3}
+    _rotateSpeed: 4
+    _itemPrefab: {fileID: 4717220636422090183, guid: faadfb9a39c3b47e1993045a5fdaf4c5, type: 3}
+    _stuckKnifePrefab: {fileID: 5764183770675544153, guid: 415bb66960fe749e6915ff1dea45941d, type: 3}
+    _minItemCount: 0
+    _maxItemCount: 0
+    _minStuckKnifeCount: 0
+    _maxStuckKnifeCount: 0
+    _throwableKnifeCount: 8
